@@ -144,27 +144,6 @@ img {
     transition: var(--transition);
 }
 
-.bg-overlay {
-    position: relative;
-}
-
-.bg-overlay::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/assets/layers/overlay.png');
-    background-size: contain;
-    opacity: 0.1;
-}
-
-.bg-overlay .row {
-    position: relative;
-    z-index: 1;
-}
-
 .wrapper {
     display: flex;
     flex-flow: row wrap;
