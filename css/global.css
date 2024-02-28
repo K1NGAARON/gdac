@@ -408,6 +408,14 @@ img {
     .form-wrapper input {
         font-size: 14px;
     }
+
+    .reviews-wrapper .item .quote-wrapper .stars i {
+        font-size: 16px;
+    }
+
+    .reviews-wrapper .item .quote-wrapper .quote-icon i {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 1000px) {

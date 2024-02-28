@@ -97,6 +97,11 @@
         width: 100%;
     }
 
+    .banner .btn-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .form-wrapper {
         padding: 0;
     }
