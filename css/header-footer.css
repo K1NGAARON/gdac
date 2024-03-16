@@ -138,6 +138,14 @@
     padding-bottom: 5px;
 }
 
+.header .container .nav.language-toggle {
+    opacity: 0.6;
+}
+
+.header .container .nav.language-toggle.active {
+    opacity: 1;
+}
+
 .nav::before {
     content: "";
     position: absolute;
