@@ -93,7 +93,17 @@
 @media (max-width: 560px) {
     .banner.section,
     .banner.section .row {
-        height: 50vh;
+        height: 80vh;
+    }
+
+    .services-wrapper .item {
+        flex: 1 0 100%;
+        width: 100%;
+    }
+
+    .services-wrapper .item h3,
+    .services-wrapper .item a {
+        font-size: 14px;
     }
 
     .banner h1,
