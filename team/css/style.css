@@ -17,6 +17,8 @@
 
 .team-wrapper .item img {
     border-radius: 50%;
+    max-width: 150px;
+    margin: 0 auto 20px auto;
 }
 
 .team-wrapper .item h3 {
