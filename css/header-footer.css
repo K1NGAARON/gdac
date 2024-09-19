@@ -44,7 +44,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 100px;
+    width: 175px;
 }
 
 .header .nav-logo {
@@ -280,7 +280,7 @@
 
     .header .logo, 
     .footer .logo {
-        width: 75px;
+        width: 100px;
     }
 
     .nav::before {
