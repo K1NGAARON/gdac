@@ -1,0 +1,26 @@
+.topnav-content-sm {
+    flex-direction: column;
+    width: 100%;
+}
+
+.topnav-content-sm .header-col {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav-content-sm .header-col .logo {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.header .small-menu-content {
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+}
+
+.header .small-menu-content .nav {
+    font-size: 14px;
+    padding: 0;
+}
