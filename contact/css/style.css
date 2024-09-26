@@ -16,3 +16,8 @@
 .banner.section .row {
     min-height: 80vh;
 }
+
+.banner.section .row .legal a,
+.banner.section .row .legal p {
+    color: var(--white);
+}
