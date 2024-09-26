@@ -306,13 +306,21 @@
         </div>
         <div class="col">
             <div class="form-wrapper">
-                <form action="https://formspree.io/f/mwkgqplo" method="post" target="_blank" validate>
+                <form action="https://formspree.io/f/mwkgqplo" method="post" target="_blank" validate enctype=multipart/form-data>
                     <div class="form-row">
                         <input type="text" value="" name="first-name" placeholder="Voornaam*" required>
                         <input type="text" value="" name="last-name" placeholder="Familienaam*" required>
                     </div>
                     <div class="form-row">
                         <input type="email" value="" name="email" placeholder="E-mailadres*" required>
+                    </div>
+                    <div class="form-row">
+                        <label style="color: var(--black);" for="">Upload je CV</label>
+                        <input type="file" name="cv" id="cv">
+                    </div>
+                    <div class="form-row">
+                        <label style="color: var(--black);" for="">Upload je motivatiebrief</label>
+                        <input type="file" name="motivatiebrief" id="motivatiebrief">
                     </div>
                     <div class="form-row">
                         <input type="text" value="" name="linkedin" placeholder="Wat is de link van jouw LinkedIn profiel?*">
