@@ -286,4 +286,32 @@
     .nav::before {
         display: none;
     }
+
+
+    .topnav-content-sm {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .topnav-content-sm .header-col {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .topnav-content-sm .header-col .logo {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    
+    .header .small-menu-content {
+        flex-direction: row;
+        gap: 15px;
+        padding: 0;
+    }
+    
+    .header .small-menu-content .nav {
+        font-size: 12px;
+        padding: 0;
+    }
 }
