@@ -1,10 +1,15 @@
 .banner {
     justify-content: center;
-    background-image: url('/home/img/banner.jpg');
+    background-image: none;
+    background-color: #fafafa;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     position: relative;
+}
+
+.banner .overlay {
+    display: none;
 }
 
 .banner .row {
@@ -19,5 +24,9 @@
 
 .banner.section .row .legal a,
 .banner.section .row .legal p {
-    color: var(--white);
+    color: var(--black);
+}
+
+.banner.section  h1 {
+    color: black;
 }
