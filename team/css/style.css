@@ -37,3 +37,22 @@
 .team-wrapper .item .mail i {
     margin-right: 5px;
 }
+
+.section.banner {
+    color: black;    
+    background-color: #fafafa;
+    background-image: none;
+}
+
+.section.banner .overlay {
+    display: none;
+}
+
+.section.banner h1 {
+    color: black;
+}
+
+.section.banner,
+.section.banner .row {
+    min-height: 40vh;
+}
